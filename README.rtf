@@ -1,0 +1,29 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2512
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\paperw12240\paperh15840\margl1440\margr1440\vieww12300\viewh14280\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \
+1. Install Python using the pythoninstall file\
+2. Use pip3 to install numpy, scipy, matplotlib, networkx using the command \
+		
+\f1\fs22 \cf2 \CocoaLigature0 pip3 install module --user
+\f0\fs24 \cf0 \CocoaLigature1 \
+3. Open Terminal and navigate to the Program folder\
+4. Run the program using \
+		python3 control.py\
+\
+-> the initial set up is for a star graph with 50 nodes to run the DeGroot model on 7 issues, while visualizing opinions at the beginning and end of each issue, and displaying weight and opinion matrices at the start and at consensus for each issue\
+\
+5. Main controls for the project are in control.py\
+	- variables such as number of people, type of graph, number of conversations can be modified\
+	- type of process (DeGroot or BoundedConfidence) can be selected here\
+\
+6. mod_degroot.py allows change of visualization rates\
+7. mod_bounded_conf.py allows change of bounds and affectivity\
+8. visualize.py allows contains multiple types of visualizations that can be called in other files \
+9. csv_processor.py takes a network matrix like input_stanford.csv and outputs a adjacency matrix\
+\
+}
