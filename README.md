@@ -38,6 +38,10 @@ It will:
     
 - **csv_processor.py** – Converts a network matrix (e.g., input_stanford.csv) into an adjacency matrix for simulations.
 
+## Further reading
+- [Blog post about the project](https://dulangaj.github.io/social-network-opinion-dynamics)
+- Report.pdf in the GitHub repo
+
 ## Citation
 
 If referencing this work, please cite:
